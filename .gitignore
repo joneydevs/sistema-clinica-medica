@@ -1,0 +1,13 @@
+# Ignorar as pastas do ambiente virtual que estão soltas na raiz
+bin/
+lib/
+lib64/
+include/
+pyvenv.cfg
+
+# Ignorar o cofre de senhas
+.env
+
+# Ignorar caches do Python
+__pycache__/
+*.pyc
